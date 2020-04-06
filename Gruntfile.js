@@ -21,6 +21,7 @@ module.exports = function (grunt) {
       'dest/main.js':'main.js',
 	  'dest/demo/list/main.js':'demo/list/main.js',
 	  'dest/demo/menubar/main.js':'demo/menubar/main.js',
+	  'dest/demo/menubar/data.js':'demo/menubar/data.js',
 	  'dest/demo/setfont/main.js':'demo/setfont/main.js',
 	  'dest/demo/write/main.js':'demo/write/main.js',
     }
