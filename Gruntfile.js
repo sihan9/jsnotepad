@@ -11,10 +11,10 @@ module.exports = function (grunt) {
       }
     },
     cssmin:{
-      'dest/register.css':'register.css'
+      'dest/layout.css':'layout.css'
     },
     uglify:{
-      'dest/register.js':'register.js'
+      'dest/main.js':'main.js'
     }
   });
 
