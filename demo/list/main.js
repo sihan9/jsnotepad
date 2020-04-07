@@ -1,9 +1,9 @@
 var $list = function(){
-    var $div = $(
-    `<div class="main">
-        <input class="editor" type="text"><br>
-        <ul class="list"></ul>
-    </div>`),
+    var $div = $(''
+    +'<div class="main">'
+    +    '<input class="editor" type="text"><br>'
+    +    '<ul class="list"></ul>'
+    +'</div>'),
         $editor = $div.find('.editor'),
         $list = $div.find('.list');
     var $listItem;

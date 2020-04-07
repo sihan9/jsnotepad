@@ -1,34 +1,34 @@
 var $setfont = function(){
-    var $dlg =$( `
-    <div class="notepad-dlg-font">
-        <div class="notepad-dlgbox">
-        <div class="notepad-dlg-titlebar">
-            <p class="title">字体</p>
-            <span class="close-btn">✖</span>
-        </div>
-        <div class="notepad-dlg-main">
-            <div class="font-family"><p>字体(F):</p></div>
-            <div class="font-style"><p>字形(Y):</p></div>
-            <div class="font-size"><p>大小(S):</p></div>
-            <fieldset class="sample">
-                <legend>示例</legend>
-                <p>AaBbYyZz</p>
-            </fieldset>
-            <div class="script">
-            <label>
-                脚本(R):<br>
-                <select>
-                <option value="西欧语言">西欧语言</option>
-                <option value="中文 GB2312">中文 GB2312</option>
-                </select>
-            </label>
-            </div>
-            <input class="btn-ok btn" type="button" value="确定">
-            <input class="btn-cancel btn" type="button" value="取消">
-        </div>
-        </div>
-    </div>
-    `);
+    var $dlg =$(''
+    +'<div class="notepad-dlg-font">'
+    +    '<div class="notepad-dlgbox">'
+    +    '<div class="notepad-dlg-titlebar">'
+    +        '<p class="title">字体</p>'
+    +        '<span class="close-btn">✖</span>'
+    +    '</div>'
+    +    '<div class="notepad-dlg-main">'
+    +        '<div class="font-family"><p>字体(F):</p></div>'
+    +        '<div class="font-style"><p>字形(Y):</p></div>'
+    +        '<div class="font-size"><p>大小(S):</p></div>'
+    +        '<fieldset class="sample">'
+    +           '<legend>示例</legend>'
+    +            '<p>AaBbYyZz</p>'
+    +        '</fieldset>'
+    +        '<div class="script">'
+    +        '<label>'
+    +            '脚本(R):<br>'
+    +           ' <select>'
+    +            '<option value="西欧语言">西欧语言</option>'
+    +            '<option value="中文 GB2312">中文 GB2312</option>'
+    +           '</select>'
+    +        '</label>'
+    +       '</div>'
+    +        '<input class="btn-ok btn" type="button" value="确定">'
+    +        '<input class="btn-cancel btn" type="button" value="取消">'
+    +    '</div>'
+    +    '</div>'
+    +'</div>'
+    );
     var $btnClose = $dlg.find('.close-btn'),
         $btnOk = $dlg.find('.btn-ok'),
         $btnCancel = $dlg.find('.btn-cancel'),
