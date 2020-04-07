@@ -1,4 +1,4 @@
-var $menubar = (function(){
+var $menubar = function(){
     var $bar = $('<div class="notepad-menubar"></div>');
     
     var menuData,
@@ -88,5 +88,7 @@ var $menubar = (function(){
         createMenus();
         $('body').append($bar);
     }
-    return show;
-}());
+    return {
+        show:show
+    };
+};

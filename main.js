@@ -5,7 +5,8 @@ var font = {
   fontSize:'8px'
 }
 $(function() {
-  $menubar.show(menuData);
+  var menu = new $menubar();
+  menu.show(menuData);
   var ed = new $editor();
   ed.show('body');
 });
