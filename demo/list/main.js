@@ -100,7 +100,7 @@ var $list = function(){
     return{
         show : show ,
         setFontStyle : setFontStyle
-    }
+    };
 };
 
 // for(let i = 0 ;i<list.length;i++){

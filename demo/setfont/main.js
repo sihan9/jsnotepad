@@ -107,7 +107,5 @@ var $setfont = function(){
             }
         });
     }
-    return {
-        show
-    }
+    return show;
 }

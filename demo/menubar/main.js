@@ -88,7 +88,5 @@ var $menubar = (function(){
         createMenus();
         $('body').append($bar);
     }
-    return {
-        show
-    }
+    return show;
 }());

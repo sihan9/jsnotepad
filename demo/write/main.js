@@ -18,7 +18,7 @@ var $editor = function() {
         $textArea.css({'font-size':size});
     }
     return{
-        show,
-        chageTextAreaStyle
-    }
+        show : show,
+        chageTextAreaStyle : chageTextAreaStyle
+    };
 }
