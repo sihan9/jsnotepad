@@ -46,7 +46,7 @@ var $list = function(){
     function fillData() {
         if(listData.isFont) {
             for(var i=0; i<listData.list.length; i++) {
-                $listItem = $(`<li class="item"></li>`);
+                $listItem = $('<li class="item"></li>');
                 $listItem.css({'font-family': listData.list[i]});
                 $listItem.html(listData.list[i]);
                 $listItem.attr('name',i);
@@ -54,7 +54,7 @@ var $list = function(){
             }
         } else if(listData.isFontStyle) {
             for(var i=0; i<listData.list.length; i++) {
-                $listItem = $(`<li class="item"></li>`);
+                $listItem = $('<li class="item"></li>');
                 setFontStyle($listItem,listData.list[i]);
                 $listItem.html(listData.list[i]);
                 $listItem.attr('name',i);
@@ -62,7 +62,7 @@ var $list = function(){
             }
         } else {
             for(var i=0; i<listData.list.length; i++) {
-                $listItem = $(`<li class="item"></li>`);
+                $listItem = $('<li class="item"></li>');
                 $listItem.html(listData.list[i]);
                 $listItem.attr('name',i);
                 $list.append($listItem);
