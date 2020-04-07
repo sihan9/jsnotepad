@@ -98,8 +98,8 @@ var $list = function(){
         $con.append($div);
     }
     return{
-        show,
-        setFontStyle
+        show : show ,
+        setFontStyle : setFontStyle
     }
 };
 
