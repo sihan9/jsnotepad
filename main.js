@@ -1,0 +1,1 @@
+var font={fontFamliy:"Agency FB",fontStyle:"",fontWeight:"",fontSize:"8px"};$(function(){(new $menubar).show(menuData),(new $editor).show("body")});
